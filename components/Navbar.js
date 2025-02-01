@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 const Navbar = () => {
-  return (
+  return ( 
     <nav className='h-16 bg-purple-700 flex justify-between px-3 items-center text-white '>
       <div className="logo font-bold text-2xl"> 
         <Link href="/">ZippyURL</Link>
